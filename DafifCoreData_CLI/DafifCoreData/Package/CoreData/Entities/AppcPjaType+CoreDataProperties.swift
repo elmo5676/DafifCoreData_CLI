@@ -1,0 +1,23 @@
+/*******************************************************
+* AppcPjaType+CoreDataProperties
+* Copyright © 4bitCrew, LLC - All Rights Reserved
+* Created on 3/26/20, for DafifViewer
+* Matthew Elmore <matt@4bitCrew.com>
+* Unauthorized copying of this file is strictly prohibited
+********************************************************/
+//
+
+import Foundation
+import CoreData
+
+
+extension AppcPjaType {
+
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<AppcPjaType> {
+        return NSFetchRequest<AppcPjaType>(entityName: "AppcPjaType")
+    }
+
+    @NSManaged public var description_: String?
+    @NSManaged public var type: String?
+
+}
