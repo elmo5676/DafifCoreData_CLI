@@ -8,10 +8,13 @@
 
 import Foundation
 
+
+//print(DafifCoreDataAPI.new)
+
 //DafifDownloader.shared.downloadDafif(from: URL(string: "https://s3-us-west-2.amazonaws.com/9ogv-filestorage/DAFIF/DAFIF8.zip"))
 
-
 DafifCoreDataLoader.shared.printCDCounter()
+
 
 
 
